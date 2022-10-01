@@ -4,4 +4,13 @@ require:
   - rubocop-rails
   - rubocop-rspec
 AllCops:
+  TargetRubyVersion: 2.7
   NewCops: enable
+AsciiComments:
+  Enabled: false
+Documentation:
+  Enabled: false
+ClassAndModuleChildren:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
