@@ -1,5 +1,8 @@
 FROM ruby:2.7.4
 
+# タイムゾーンをJSTに変更
+ENV TZ Asia/Tokyo
+
 ## nodejsとyarnはwebpackをインストールする際に必要
 # yarnパッケージ管理ツールをインストール
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
